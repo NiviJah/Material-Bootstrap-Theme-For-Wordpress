@@ -17,15 +17,7 @@ get_header(); ?>
 
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-    <p class="bs-component">
-        <a href="javascript:void(0)" class="btn btn-default">Default</a>
-        <a href="javascript:void(0)" class="btn btn-primary">Primary</a>
-        <a href="javascript:void(0)" class="btn btn-success">Success</a>
-        <a href="javascript:void(0)" class="btn btn-info">Info</a>
-        <a href="javascript:void(0)" class="btn btn-warning">Warning</a>
-        <a href="javascript:void(0)" class="btn btn-danger">Danger</a>
-        <a href="javascript:void(0)" class="btn btn-link">Link</a>
-    </p>
+
 			<?php
 				/* Include the Post-Format-specific template for the content.
 				 * If you want to overload this in a child theme then include a file
