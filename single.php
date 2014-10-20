@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package _tk
+ * @package _nivijah
  */
 
 get_header(); ?>
@@ -11,7 +11,7 @@ get_header(); ?>
 
 		<?php get_template_part( 'content', 'single' ); ?>
 
-		<?php _tk_content_nav( 'nav-below' ); ?>
+		<?php _nivijah_content_nav( 'nav-below' ); ?>
 
 		<?php
 			// If comments are open or we have at least one comment, load up the comment template

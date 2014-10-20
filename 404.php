@@ -2,7 +2,7 @@
 /**
  * The template for displaying 404 pages (Not Found).
  *
- * @package _tk
+ * @package _nivijah
  */
 
 get_header(); ?>
@@ -11,12 +11,12 @@ get_header(); ?>
 	<section class="content-padder error-404 not-found">
 
 		<header class="page-header">
-			<h2 class="page-title"><?php _e( 'Oops! Something went wrong here.', '_tk' ); ?></h2>
+			<h2 class="page-title"><?php _e( 'Oops! Something went wrong here.', '_nivijah' ); ?></h2>
 		</header><!-- .page-header -->
 
 		<div class="page-content">
 
-			<p><?php _e( 'Nothing could be found at this location. Maybe try a search?', '_tk' ); ?></p>
+			<p><?php _e( 'Nothing could be found at this location. Maybe try a search?', '_nivijah' ); ?></p>
 
 			<?php get_search_form(); ?>
 
