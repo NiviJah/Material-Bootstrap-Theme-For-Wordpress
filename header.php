@@ -79,5 +79,12 @@
 <div class="main-content">	
 	<div class="container">
 		<div class="row">
-			<div class="main-content-inner col-12 col-lg-12">
+
+			<?php
+			if ( is_active_sidebar('sidebar-1') ): ?>
+				<div class="main-content-inner col-12 col-lg-9">
+			<?php else : ?>
+				<div class="main-content-inner col-12 col-lg-12">
+			<?php endif; ?>
+			
 
