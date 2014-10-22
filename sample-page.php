@@ -11,7 +11,7 @@ get_header(); ?>
 
             <!-- Navbar
 ================================================== -->
-            <div class="bs-docs-section clearfix">
+<div class="bs-docs-section clearfix">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="page-header">
@@ -30,10 +30,10 @@ get_header(); ?>
                                 </div>
                                 <div class="navbar-collapse collapse navbar-responsive-collapse">
                                     <ul class="nav navbar-nav">
-                                        <li class="active"><a href="javascript:void(0)">Active</a></li>
+                                        <li class="active"><a href="javascript:void(0)" class=" withripple">Active<div class="ripple-wrapper"></div></a></li>
                                         <li><a href="javascript:void(0)">Link</a></li>
                                         <li class="dropdown">
-                                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                            <a href="javascript:void(0)" class="dropdown-toggle withripple" data-toggle="dropdown">Dropdown <b class="caret"></b><div class="ripple-wrapper"></div></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="javascript:void(0)">Action</a></li>
                                                 <li><a href="javascript:void(0)">Another action</a></li>
@@ -45,8 +45,8 @@ get_header(); ?>
                                             </ul>
                                         </li>
                                     </ul>
-                                    <form class="navbar-form navbar-left">
-                                        <input type="text" class="form-control col-lg-8" placeholder="Search">
+                                    <form class="navbar-form navbar-left" _lpchecked="1">
+                                        <div class="form-control-wrapper"><input type="text" class="form-control col-lg-8 empty" placeholder="Search"><span class="material-input"></span></div>
                                     </form>
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="javascript:void(0)">Link</a></li>
@@ -77,10 +77,10 @@ get_header(); ?>
                                 </div>
                                 <div class="navbar-collapse collapse navbar-warning-collapse">
                                     <ul class="nav navbar-nav">
-                                        <li class="active"><a href="javascript:void(0)">Active</a></li>
+                                        <li class="active"><a href="javascript:void(0)" class=" withripple">Active<div class="ripple-wrapper"></div></a></li>
                                         <li><a href="javascript:void(0)">Link</a></li>
                                         <li class="dropdown">
-                                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                            <a href="javascript:void(0)" class="dropdown-toggle withripple" data-toggle="dropdown">Dropdown <b class="caret"></b><div class="ripple-wrapper"></div></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="javascript:void(0)">Action</a></li>
                                                 <li><a href="javascript:void(0)">Another action</a></li>
@@ -93,7 +93,7 @@ get_header(); ?>
                                         </li>
                                     </ul>
                                     <form class="navbar-form navbar-left">
-                                        <input type="text" class="form-control col-lg-8" placeholder="Search">
+                                        <div class="form-control-wrapper"><input type="text" class="form-control col-lg-8 empty" placeholder="Search"><span class="material-input"></span></div>
                                     </form>
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="javascript:void(0)">Link</a></li>
@@ -125,9 +125,9 @@ get_header(); ?>
                                 <div class="navbar-collapse collapse navbar-inverse-collapse">
                                     <ul class="nav navbar-nav">
                                         <li class="active"><a href="javascript:void(0)">Active</a></li>
-                                        <li><a href="javascript:void(0)">Link</a></li>
+                                        <li><a href="javascript:void(0)" class=" withripple">Link<div class="ripple-wrapper"></div></a></li>
                                         <li class="dropdown">
-                                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                            <a href="javascript:void(0)" class="dropdown-toggle withripple" data-toggle="dropdown">Dropdown <b class="caret"></b><div class="ripple-wrapper"></div></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="javascript:void(0)">Action</a></li>
                                                 <li><a href="javascript:void(0)">Another action</a></li>
@@ -140,7 +140,7 @@ get_header(); ?>
                                         </li>
                                     </ul>
                                     <form class="navbar-form navbar-left">
-                                        <input type="text" class="form-control col-lg-8" placeholder="Search">
+                                        <div class="form-control-wrapper"><input type="text" class="form-control col-lg-8 empty" placeholder="Search"><span class="material-input"></span></div>
                                     </form>
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="javascript:void(0)">Link</a></li>
@@ -157,7 +157,7 @@ get_header(); ?>
                                     </ul>
                                 </div>
                             </div>
-                        </div><!-- /example -->
+                        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div><!-- /example -->
 
                     </div>
                 </div>
@@ -2181,7 +2181,7 @@ get_header(); ?>
 
 
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
 
 
